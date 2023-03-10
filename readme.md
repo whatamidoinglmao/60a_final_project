@@ -10,7 +10,7 @@ this repo will have all of our vi's. the actual project vi is in the "projects" 
 
 i tried making a thorough guide on getting setup using git and using it to share our code. there's also a section detailing how to uninstall all the softwares we use if you don't want to keep them
 
-this is an attempt to make our code more convenient to share, but if it is too cumbersome, we can find different ways
+this is an attempt to make our code more convenient to share, but if it is too cumbersome, we can just use google drive
 
 ---
 
@@ -50,7 +50,7 @@ If you see this:
 
 ![alt text](imgs/git_version_check.png "git check")
 
-Then you're good. But, if is says something along the lines of "git is not recognized," then you probably need to skip ahead to the "Add Git to Path" section.
+Then you're good. But, if is says something along the lines of "git is not recognized," then the solution will probably be in the "Add Git to Path" section. In the meantime though, you can just move onto step 2.
 
 2. Now, install TortoiseGit by running:
 
@@ -78,7 +78,7 @@ Just make sure to type in your actual username and email. Only the username one 
 
 This section is optional, if you're struggling with the Git and TortoiseGit install.
 
-This sounds weird, but adding a program to your Path is basically making it easier for other programs to easily find it, which is important for using Git and TortoiseGit.
+This sounds weird, but you can think of adding a program to your Path as making it easier for other programs to easily find it, which is important for using Git and TortoiseGit.
 
 1. Search "Edit system variables" in your Windows search. An option like this may come up:
 
@@ -116,7 +116,7 @@ If TortoiseGit isn't working, you can add another:
 
 `git --version`
 
-If it still doesn't work, closing command prompt and waiting a minute, then do it again. If you open/close command prompt a couple times and it still doesn't work, then you might've typed the wrong directory and Git was installed somewhere else, which we can help troubleshoot in our discord if you can't get past this step.
+If it still doesn't work, close command prompt and wait a bit, then do it again. If you open/close command prompt a couple times and it still doesn't work, then you might've typed the wrong directory and/or Git was installed somewhere else, which we can help troubleshoot in our discord if you can't get past this step.
 
 TortoiseGit should also show up if you search for it as an app, so again, if it still doesn't after adding to your Path, we can try to help troubleshoot.
 
