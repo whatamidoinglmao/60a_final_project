@@ -6,9 +6,9 @@
 
 coding in labview to make a heartbeat sensor
 
-this repo will have all of our vi's
+this repo will have all of our vi's. the actual project vi is in the "projects" folder
 
-i tried making a short guide on getting setup using git and using it to share our code. there's also a section detailing how to uninstall all the softwares we use if you don't want to keep them
+i tried making a thorough guide on getting setup using git and using it to share our code. there's also a section detailing how to uninstall all the softwares we use if you don't want to keep them
 
 this is an attempt to make our code more convenient to share, but if it is too cumbersome, we can find different ways
 
