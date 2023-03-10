@@ -50,7 +50,7 @@ If you see this:
 
 ![alt text](imgs/git_version_check.png "git check")
 
-Then you're good and can skip step 2. But, if is says something along the lines of "git is not recognized," then you probably need to skip ahead to the "Add Git to Path" section.
+Then you're good. But, if is says something along the lines of "git is not recognized," then you probably need to skip ahead to the "Add Git to Path" section.
 
 2. Now, install TortoiseGit by running:
 
@@ -78,7 +78,7 @@ Just make sure to type in your actual username and email. Only the username one 
 
 This section is optional, if you're struggling with the Git and TortoiseGit install.
 
-This sounds weird, but adding a program to your Path is basically making it easier for other programs to easily find git, which is important for using TortoiseGit.
+This sounds weird, but adding a program to your Path is basically making it easier for other programs to easily find it, which is important for using Git and TortoiseGit.
 
 1. Search "Edit system variables" in your Windows search. An option like this may come up:
 
@@ -142,11 +142,11 @@ The new folder should be created, with all of our current code.
 
 There's just one thing you need to do before you can properly use TortoiseGit with LabVIEW, which is to setup the LabVIEW Merge app to TortoiseGit.
 
-When you work on the VI's, there's a chance that someone else is working on it at the same time. If the other person uploads their work first, then when you go to upload, Git will tell you to merge the other person's code first. So, you run the "Pull" command, which "pulls" their new code into your copy, and Git can usually handle this by itself.
+When you work on the VI's, there's a chance that someone else is working on it at the same time. If the other person uploads their work first, when you go to upload, Git will tell you to merge the other person's code first. So, you run the "Pull" command, which "pulls" their new code into your copy, and Git can usually handle this by itself. 
 
-BUT, if you worked on the same things that the other person did, then there's a "merge conflict," meaning Git doesn't know whose code to trust and will need you to tell it what to keep.
+BUT, if you worked on the same things that the other person did, then there's a "merge conflict," meaning Git doesn't know whose code to trust and will need you to tell it what to keep. There's more details about merge conflicts in a further section.
 
-Git is used to working with text files, so you need a program that can merge VI's together. Luckily, LabVIEW already has that.
+Git is used to working with text files and can't understand a VI, so you need a program that can merge VI's together. Luckily, LabVIEW already has that.
 
 1. Right click in your folder that has our project, then go to TortoiseGit>Settings. A message box might come up giving you some details about how Git settings work, but when you click past it, you'll see this:
 
@@ -161,6 +161,8 @@ An important part is that the path within the quotes is the path to your LabVIEW
 Anyways, it should end up looking like this:
 
 ![alt text](imgs/lvmerge_in_tt.png "lvmerge in tortoise git")
+
+You can hit "OK" to exit that menu, but make sure you hit "Apply" before you exit the next menu to save that change. Now, TortoiseGit can point to LVMerge if you ever have a merge conflict.
 
 ## Using TortoiseGit with LabVIEW
 
