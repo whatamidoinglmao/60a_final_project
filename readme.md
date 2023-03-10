@@ -176,7 +176,7 @@ You can do this by right clicking in the folder with the project, hover over the
 
 A menu will come up, but just hit "OK" or whatever it says to move on. This will "pull" all of the changes from GitHub into your own computer.
 
-2. Do all your work, then when you're done, select the "Diff" option. You'll see something like this:
+2. Do all your work, then when you're done, go back to the folder and right click to pull up TortoiseGit. Select the "Diff" option. You'll see something like this:
 
 ![alt text](imgs/diff.png "diff menu")
 
