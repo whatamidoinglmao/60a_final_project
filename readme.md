@@ -142,11 +142,11 @@ The new folder should be created, with all of our current code.
 
 There's just one thing you need to do before you can properly use TortoiseGit with LabVIEW, which is to setup the LabVIEW Merge app to TortoiseGit.
 
-When you work on the VI's, there's a chance that someone else is working on it at the same time. If the other person uploads their work first, then when you go to upload, Git will tell you to merge the other person's code first. So, you run the "Pull" command, which "pulls" their new code into your copy, and Git can usually handle this by itself.
+When you work on the VI's, there's a chance that someone else is working on it at the same time. If the other person uploads their work first, when you go to upload, Git will tell you to merge the other person's code first. So, you run the "Pull" command, which "pulls" their new code into your copy, and Git can usually handle this by itself. 
 
-BUT, if you worked on the same things that the other person did, then there's a "merge conflict," meaning Git doesn't know whose code to trust and will need you to tell it what to keep.
+BUT, if you worked on the same things that the other person did, then there's a "merge conflict," meaning Git doesn't know whose code to trust and will need you to tell it what to keep. There's more details about merge conflicts in a further section.
 
-Git is used to working with text files, so you need a program that can merge VI's together. Luckily, LabVIEW already has that.
+Git is used to working with text files and can't understand a VI, so you need a program that can merge VI's together. Luckily, LabVIEW already has that.
 
 1. Right click in your folder that has our project, then go to TortoiseGit>Settings. A message box might come up giving you some details about how Git settings work, but when you click past it, you'll see this:
 
