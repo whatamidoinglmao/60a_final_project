@@ -184,11 +184,13 @@ A menu will come up, but just hit "OK" or whatever it says to move on. This will
 
 ![alt text](imgs/commit.png "commit menu")
 
-Type in whatever you did in the message text box, and you can hit the "Set author date" and "Set author" buttons to include that info to your upload. When you hit the "Commit" button, it will commit all your changes in Git.
+Type in whatever you did in the message text box, as this message will appear in GitHub for other people to quickly see what you did. When you hit the "Commit" button, it will commit all your changes in Git. A new menu will popup, and you want to hit the "Push" button
 
-4. Upload your changes to GitHub
+4. Upload (or "push") your changes to GitHub
 
-Now that Git remembers your changes, you can easily upload it to GitHub by right clicking in your folder, going to TortoiseGit, and selecting the "Push" option. Once again, a menu will come up, but you can hit "OK" or whatever. This will "push," or upload, all of your changes to the folder on GitHub, and now everyone else will be able to access it.
+After you hit the "Push" button a menu will come up, but you can just hit "OK" or whatever to continue. This will "push," or upload, all of your changes to the folder on GitHub, and now everyone else will be able to access it.
+
+You can also "push" the same way you "pull," just right-clicking in the folder and going through TortoiseGit to the push option, which will push any commits you may have made during your work session.
 
 ## Handling a Merge Conflict
 
@@ -196,7 +198,9 @@ There's a chance that when you go to push your changes, it'll fail and probably 
 
 But, there is a solid chance that trying to pull makes a "merge conflict," meaning you've committed changes that conflict with the changes that were pushed before you. If that's the case, you need to:
 
-1. Right click on the VI that has the conflict, go through TortoiseGit, and hit the "Edit conflicts" option. If you setup TortoiseGit with LVMerge.exe right, it should open a shit ton of VI's:
+1. Right click on the VI that has the conflict, go through TortoiseGit, and hit the "Edit conflicts" option (you can tell it's the affected VI if there's a little caution symbol over the picture). If you setup TortoiseGit with LVMerge.exe right, it should open a shit ton of VI's:
+
+![alt text](imgs/edit_conflict.png "the edit conflict option")
 
 ![alt text](imgs/lvmerge.png "lvmerge clusterfuck menu")
 
