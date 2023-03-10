@@ -14,7 +14,7 @@ this is an attempt to make our code more convenient to share, but if it is too c
 
 ---
 
-## Setup Instructions
+## Setup Guide
 
 * [Git & TortoiseGit Install](#git--tortoisegit-install)
 * [Add Git to Path](#add_git_to_path)
@@ -199,6 +199,8 @@ But, there is a solid chance that trying to pull makes a "merge conflict," meani
 ![alt text](imgs/lvmerge.png "lvmerge clusterfuck menu")
 
 The left side of the screen will have three VI's. The top one has the current status on GitHub, the bottom one has all of your current changes, and the one in the middle has neither of your changes.
+
+In this case, someone pushed a change where they added a button (top), but I added a gauge (bottom) before pulling their changes. Git expected my VI to look like the one in the middle (with no changes, neither the gauge nor button). But it doesn't, so a merge conflict happens.
 
 The right side of the screen actually handles the merge. The top is what the VI will look like after the merge, and the bottom has a detailed menu with all the conflicts. You can click through each conflict and choose whose changes to take. If the top VI already looks like it's merging correctly, you don't have to mess with this, but if the top VI looks wrong for whatever reason, you can change some of the choices of what to keep in this menu. You can also just manually edit the top VI until it looks right if you don't want to deal with that.
 
