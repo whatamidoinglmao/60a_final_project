@@ -78,7 +78,7 @@ Just make sure to type in your actual username and email. Only the username one 
 
 This section is optional, if you're struggling with the Git and TortoiseGit install.
 
-This sounds weird, but adding a program to your Path is basically making it easier for other programs to easily find git, which is important for using TortoiseGit.
+This sounds weird, but adding a program to your Path is basically making it easier for other programs to easily find it, which is important for using Git and TortoiseGit.
 
 1. Search "Edit system variables" in your Windows search. An option like this may come up:
 
