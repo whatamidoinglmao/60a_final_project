@@ -50,7 +50,7 @@ If you see this:
 
 ![alt text](imgs/git_version_check.png "git check")
 
-Then you're good and can skip step 2. But, if is says something along the lines of "git is not recognized," then you probably need to skip ahead to the "Add Git to Path" section.
+Then you're good. But, if is says something along the lines of "git is not recognized," then you probably need to skip ahead to the "Add Git to Path" section.
 
 2. Now, install TortoiseGit by running:
 
