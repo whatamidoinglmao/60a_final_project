@@ -168,7 +168,7 @@ You can hit "OK" to exit that menu, but make sure you hit "Apply" before you exi
 
 The main worflow of using TortoiseGit is this:
 
-1. Before you do any new work, "pull" the changes anyone else might have added.
+1. Before you do any new work, download (or "pull") the changes anyone else might have added.
 
 You can do this by right clicking in the folder with the project, hover over the TortoiseGit option, then click the "Pull" option:
 
