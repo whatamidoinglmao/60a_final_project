@@ -162,6 +162,8 @@ Anyways, it should end up looking like this:
 
 ![alt text](imgs/lvmerge_in_tt.png "lvmerge in tortoise git")
 
+You can hit "OK" to exit that menu, but make sure you hit "Apply" before you exit the next menu to save that change. Now, TortoiseGit can point to LVMerge if you ever have a merge conflict.
+
 ## Using TortoiseGit with LabVIEW
 
 The main worflow of using TortoiseGit is this:
